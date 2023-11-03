@@ -28,8 +28,8 @@
 
 # Define variables
 
-adminaccountname="localadmin"       # This is the accountname of the new admin
-adminaccountfullname="Local Admin"  # This is the full name of the new admin user
+adminaccountname="pipadmin"       # This is the accountname of the new admin
+adminaccountfullname="Corporate Admin"  # This is the full name of the new admin user
 scriptname="Create Local Admin Account"
 logandmetadir="/Library/IntuneScripts/createLocalAdminAccount"
 log="$logandmetadir/createLocalAdminAccount.log"

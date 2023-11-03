@@ -71,7 +71,7 @@ fi
 
 if [ $downgrade = true ]; then
   while read useraccount; do
-    if [ "$useraccount" == "localadmin" ]; then
+    if [ "$useraccount" == "pipadmin" ]; then
         echo "Leaving localadmin account as Admin"
     else
         echo "Making $useraccount a normal user"
